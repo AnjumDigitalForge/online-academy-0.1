@@ -1,0 +1,35 @@
+
+#cont1{
+	border: px solid $bdr-color1;
+	border-radius:$bdr-rds1;
+	text-align:$txt-align2;
+	background-color:$prm_color4;
+	box-shadow:$bdr-shdw1;
+	width:70%;
+	margin-top:10%;
+	margin-bottom: 2%;    
+}
+#cont2{
+	width:50%;
+    @extend #cont1
+}
+#formrow1{
+    margin: 0%;
+}
+#cont3{
+    @extend #cont1;
+	width:100%;
+	margin-top:0%;
+}
+
+form{
+    border: px solid $bdr-color3;
+    font-weight: bold;
+	margin-top: 5%;
+    &:hover{
+        color:$prm_color1;
+    }
+    input{
+        margin-bottom: 10%;
+    }       
+}
